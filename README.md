@@ -1,5 +1,5 @@
 # docker-crib
-A personal aide mémoire containing useful docker commands largely for very specific local developement use-cases. 
+A personal aide mémoire containing useful docker commands largely for specific local developement use-cases. 
 
 ## MariaDB / MySQL
 Create a MariaDB / MySQL database which supports accented indexes.

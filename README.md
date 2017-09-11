@@ -1,6 +1,12 @@
 # docker-crib
 A personal aide mémoire containing useful docker commands largely for specific local developement use-cases. 
 
+## Docker images
+Remove an image (usually before rebuilding having updated its Dockerfile).
+```
+% docker rmi <image_name>
+```
+
 ## MariaDB / MySQL
 Create a MariaDB / MySQL database which supports accented indexes.
 ```

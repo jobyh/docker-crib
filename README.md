@@ -6,6 +6,14 @@ Remove an image (usually before rebuilding having updated its Dockerfile).
 ```
 % docker rmi <image_name>
 ```
+Build an image using a Dockerfile assuming it exists in the `cwd`.
+```
+% docker build -t <name_for_the_image> .
+```
+Without caching.
+```
+% docker build --no-cache -t <name_for_the_image> .
+```
 
 ## Working with containers
 Mostly `docker exec` snippets here.

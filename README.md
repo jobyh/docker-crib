@@ -24,6 +24,9 @@ Create a MariaDB / MySQL database which supports accented indexes.
 ```
 ### PHP
 Run a remote PHP script so that it connects to the IntelliJ / PHPStorm debugger.
+
 ```
+# Passing -e PHP_IDE_CONFIG="serverName=<phpstorm_server_configuration_name>"
+# sets the necessary environment variable:
 % docker exec -e PHP_IDE_CONFIG="serverName=<phpstorm_server_configuration_name>" -u <webserver_user> <php_container_id> php /path/to/the/script.php
 ```
